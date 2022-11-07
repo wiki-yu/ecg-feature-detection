@@ -695,6 +695,7 @@ class Ui_MainWindow(QtWidgets.QMainWindow):
 
         x = self.x2[: self.idx2]
         y = self.y2[: self.idx2]
+
         self.idx2 += 10
         if self.idx2 > len(self.x2):
             self.idx2 = 0
